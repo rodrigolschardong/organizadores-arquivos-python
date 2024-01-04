@@ -13,5 +13,3 @@ for arquivo in lista_arquivos:
     print(arquivo)
     if not arquivo [:4] == prefixo:
         os.rename (f'{pasta_arquivos}/{arquivo}', f'{pasta_arquivos}/{prefixo + arquivo}')
-
-print ('Batata')
